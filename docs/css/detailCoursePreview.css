@@ -1,0 +1,2066 @@
+
+@font-face {
+  font-family: "SFProDisplay-Medium";
+  src: url('../fonts/SF-Pro-Display-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url('../fonts/SF-Pro-Display-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url('../fonts/SF-Pro-Display-Regular.otf') format("opentype");
+}
+
+.detail-course-preview {
+  width               : 100%;
+  min-width           : 2032px;
+  height              : 100vh;
+  min-height          : 1446px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(250, 250, 250, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.detail-course-preview .navigate-horizontal-card {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 100px;
+  width               : 2044px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+}
+.detail-course-preview .navigate-horizontal-card .placeholder {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 2044px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .browse {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.57);
+  text-align          : left;
+  letter-spacing      : 1.4px;
+  line-height         : 16.0px;
+}
+.detail-course-preview .features {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  opacity             : 0.52;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.57);
+  text-align          : left;
+  letter-spacing      : 1.4px;
+  line-height         : 16.0px;
+}
+.detail-course-preview .combined-shape214-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 5px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+}
+.detail-course-preview .combined-shape214-copy2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : 5px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 306px;
+  opacity             : 0.52;
+}
+.detail-course-preview .bitmap {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 43px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.detail-course-preview .bitmap .bitmap1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 43px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .share-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1370px;
+  height              : 51px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+}
+.detail-course-preview .share-copy .a3-icons-ic-share2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 15px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.detail-course-preview .share-copy .a3-icons-ic-share2 .a3-icons-ic-share21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 18px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .share-copy .a275 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.detail-course-preview .page1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 277px;
+  height              : 18px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.detail-course-preview .page1 .fill1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.detail-course-preview .page1 .fill3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .page1 .fill5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 14px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.detail-course-preview .page1 .fill7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.detail-course-preview .page1 .fill9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 16px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .page1 .fill11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 2px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.detail-course-preview .page1 .fill13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.detail-course-preview .group6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 43px;
+  width               : 1064px;
+  position            : absolute;
+  margin              : 0;
+  left                : 357px;
+}
+.detail-course-preview .group6 .content {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 1064px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group6 .content .group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 1064px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group6 .content .group2 .line {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 40px;
+  height              : 3px;
+  width               : 636px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group6 .content .group2 .a342901-bullets-options {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1060px;
+}
+.detail-course-preview .group6 .content .group2 .search-for {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(170, 170, 170, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.4px;
+  line-height         : 36.0px;
+}
+.detail-course-preview .group6 .content .group2 .combined-shape7996 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 15px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.detail-course-preview .group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 1996px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+}
+.detail-course-preview .group5 .navigate-vertical-card {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1996px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .navigate-vertical-card .placeholder1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1996px;
+  width               : 75px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .hpme {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 157px;
+  height              : 19px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.detail-course-preview .group5 .hpme .fill12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .hpme .fill2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.detail-course-preview .group5 .page11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 238px;
+  height              : 20px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.detail-course-preview .group5 .page11 .group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page11 .fill4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.detail-course-preview .group5 .page11 .fill6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.detail-course-preview .group5 .bitmap2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 280px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.detail-course-preview .group5 .page1-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 445px;
+  height              : 18px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+}
+.detail-course-preview .group5 .page1-copy .fill14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.detail-course-preview .group5 .page1-copy .fill31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page1-copy .fill51 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 14px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.detail-course-preview .group5 .page1-copy .fill71 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 14px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.detail-course-preview .group5 .page1-copy .fill91 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 16px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page1-copy .fill111 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 2px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.detail-course-preview .group5 .page12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 321px;
+  height              : 17px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+}
+.detail-course-preview .group5 .page13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 361px;
+  height              : 20px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.detail-course-preview .group5 .page13 .fill15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 17px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page13 .fill32 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 13px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.detail-course-preview .group5 .page13 .clip6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page13 .fill52 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 1px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .page13 .fill72 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 1px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .page13 .fill8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 1px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .page13 .fill92 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 1px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .page13 .fill10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : 1px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .page13 .fill112 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.detail-course-preview .group5 .page13 .fill121 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 3px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .bitmap3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 486px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 196px;
+  height              : 20px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire .fire1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire .fire1 .shape {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 14px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire .shape1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire .shape2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire .shape3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire .rectanglepath {
+  background-color    : rgba(164, 109, 78, 1.0);
+  top                 : 16px;
+  height              : 4px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .a345456-camp-camping-fire .rectanglepath1 {
+  background-color    : rgba(132, 86, 64, 1.0);
+  top                 : 18px;
+  height              : 2px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 566px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.detail-course-preview .group5 .page14 .group31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page14 .fill41 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.detail-course-preview .group5 .page14 .fill61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.detail-course-preview .group5 .page14 .fill101 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.detail-course-preview .group5 .page14 .group14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 12px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 527px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.detail-course-preview .group5 .page15 .fill16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .page15 .stroke3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.detail-course-preview .group5 .shoppingbasket {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 399px;
+  height              : 18px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+}
+.detail-course-preview .group5 .shoppingbasket .group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group5 .shoppingbasket .group .shape4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .shoppingbasket .group .shape5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.detail-course-preview .group5 .shoppingbasket .shape6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 10px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.detail-course-preview .group5 .shoppingbasket .shape7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 3px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .shoppingbasket .group1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 6px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.detail-course-preview .group5 .shoppingbasket .group1 .shape8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.detail-course-preview .group5 .shoppingbasket .group1 .shape9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .shoppingbasket .group1 .shape10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.detail-course-preview .group5 .a342891-chat-convo-speech-talk {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 611px;
+  height              : 15px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.detail-course-preview .group5 .a342891-chat-convo-speech-talk .shape11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.detail-course-preview .group5 .a342891-chat-convo-speech-talk .shape12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5px;
+  height              : 10px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group5 .combined-shape11929 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 34px;
+  height              : 15px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.detail-course-preview .shape13 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 18px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1999px;
+}
+.detail-course-preview .group7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 52px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1614px;
+}
+.detail-course-preview .group7 .placeholder2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  border-radius       : 26px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(247, 247, 247, 1.0);
+}
+.detail-course-preview .group7 .a345453-helmet-space {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 25px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut .shape14 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 28px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 8px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut1 .shape15 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 2px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut2 .oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 3px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 17px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut3 .shape16 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 22px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 14px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .astronaut4 .shape17 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 17px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .a345453-helmet-space .shape18 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 3px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.detail-course-preview .group7 .group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345532-bookmark-favourite {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 17px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+}
+.detail-course-preview .group7 .group4 .a345532-bookmark-favourite .shape19 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 11px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345718-alarm-bell-notification-reminder {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 15px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 152px;
+}
+.detail-course-preview .group7 .group4 .a345718-alarm-bell-notification-reminder .bell {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345718-alarm-bell-notification-reminder .bell .shape20 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 13px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345718-alarm-bell-notification-reminder .bell1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : 3px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.detail-course-preview .group7 .group4 .a345718-alarm-bell-notification-reminder .bell1 .shape21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 11px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a342962-download {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 16px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+}
+.detail-course-preview .group7 .group4 .a342962-download .shape22 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group7 .group4 .a342962-download .rectanglepath2 {
+  background-color    : rgba(189, 195, 199, 1.0);
+  top                 : 14px;
+  height              : 2px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a342970-bubble-chat-convo-speech-talk {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 18px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+}
+.detail-course-preview .group7 .group4 .a342970-bubble-chat-convo-speech-talk .chat-convo2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.detail-course-preview .group7 .group4 .a342970-bubble-chat-convo-speech-talk .chat-convo2 .shape23 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a342970-bubble-chat-convo-speech-talk .chat-convo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a342970-bubble-chat-convo-speech-talk .chat-convo1 .shape24 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345491-add-note-plus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345491-add-note-plus .shape25 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345491-add-note-plus .shape26 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.detail-course-preview .group7 .group4 .a345491-add-note-plus .note-plus3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.detail-course-preview .group7 .group4 .a345491-add-note-plus .note-plus3 .oval1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .group4 .a345491-add-note-plus .note-plus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.detail-course-preview .group7 .group4 .a345491-add-note-plus .note-plus1 .shape27 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 6px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group7 .combined-shape214 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 339px;
+}
+.detail-course-preview .group7 .akshay-rustagi {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.detail-course-preview .a342931-sliders {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 995px;
+}
+.detail-course-preview .a342931-sliders .shape28 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 14px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .a342931-sliders .oval2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.detail-course-preview .a342931-sliders .oval3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.detail-course-preview .a342931-sliders .oval4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 13px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.detail-course-preview .andre-mcbride {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1123px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 401px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .dashboard {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 109px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+}
+.detail-course-preview .history-clock-button-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 646px;
+  height              : 17px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.detail-course-preview .history-clock-button-copy .shape29 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 18px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.9;
+}
+.detail-course-preview .henry-zarak {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 595px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.detail-course-preview .oval21 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 107px;
+  height              : 23px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.detail-course-preview .bitmap4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 106px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  overflow            : hidden;
+}
+.detail-course-preview .bitmap4 .mask {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .bitmap4 .bitmap5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  overflow            : hidden;
+}
+.detail-course-preview .bitmap4 .bitmap5 .mask1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .bitmap4 .bitmap5 .bitmap6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+}
+.detail-course-preview .group8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 98px;
+  height              : 1254px;
+  width               : 1743px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+}
+.detail-course-preview .group8 .content1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 453px;
+  height              : 456px;
+  width               : 819px;
+  position            : absolute;
+  margin              : 0;
+  left                : 916px;
+}
+.detail-course-preview .group8 .content1 .content2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 58px;
+  height              : 398px;
+  width               : 819px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group8 .content1 .content2 .real-life {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 60px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.detail-course-preview .group8 .content1 .content2 .real-life .a1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .group8 .content1 .content2 .losers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 63px;
+  height              : 155px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.detail-course-preview .group8 .content1 .content2 .losers .a2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .group8 .content1 .content2 .losers .a3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .group8 .content1 .content2 .tell-tour-friends {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 132px;
+  height              : 40px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.detail-course-preview .group8 .content1 .content2 .often {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 182px;
+  height              : 96px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.detail-course-preview .group8 .content1 .content2 .often .a4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .group8 .content1 .content2 .the-hills {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 242px;
+  height              : 96px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.detail-course-preview .group8 .content1 .content2 .the-hills .a5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .group8 .content1 .content2 .acquainted {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 302px;
+  height              : 58px;
+  width               : 366px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group8 .content1 .content2 .acquainted .placeholder3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 366px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group8 .content1 .content2 .cant-feel-my-face {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 302px;
+  height              : 96px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+}
+.detail-course-preview .group8 .content1 .content2 .cant-feel-my-face .a6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .group8 .content1 .content2 .line1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 362px;
+  width               : 813px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.detail-course-preview .group8 .content1 .content2 .line1 .lines {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 362px;
+  width               : 813px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group8 .content1 .header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.detail-course-preview .group8 .rectangle5 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 993px;
+  height              : 100px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 857px;
+  border-radius       : 5px;
+  opacity             : 0.32;
+}
+.detail-course-preview .group8 .create-new-playlist {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1254px;
+  width               : 1743px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.detail-course-preview .group8 .create-new-playlist .placeholder4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 497px;
+  width               : 853px;
+  position            : absolute;
+  margin              : 0;
+  left                : 890px;
+}
+.detail-course-preview .group8 .create-new-playlist .placeholder-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1254px;
+  width               : 882px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group8 .create-new-playlist .add-copy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 893px;
+  height              : 60px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1284px;
+}
+.detail-course-preview .group8 .create-new-playlist .add-copy .a1-buttons1-large6-rounded1-white {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 61px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .group8 .create-new-playlist .add-copy .a1-buttons1-large6-rounded1-white .placeholder5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(-180deg); /* IE 9 */
+  -webkit-transform   : rotate(-180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-180deg);
+}
+.detail-course-preview .group8 .create-new-playlist .add-copy .a1-buttons1-large6-rounded1-white .icon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 14px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.detail-course-preview .group8 .create-new-playlist .add-chapters {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 970px;
+  height              : auto;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1274px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(102, 102, 102, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .rectangle10 {
+  background-color    : rgba(255, 44, 116, 1.0);
+  top                 : 1372px;
+  height              : 74px;
+  width               : 1760px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+}
+.detail-course-preview .preview {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1392px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 896px;
+  font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.detail-course-preview .bitmap7 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 88px;
+  height              : 1364px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1817px;
+  overflow            : hidden;
+}
+.detail-course-preview .bitmap7 .mask2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 1364px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.detail-course-preview .bitmap7 .rectangle9 {
+  background-color    : rgba(250, 250, 250, 1.0);
+  top                 : 54px;
+  height              : 36px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(215, 218, 221, 1.0);
+}
+.detail-course-preview .bitmap7 .rectangle9-copy {
+  background-color    : rgba(250, 250, 250, 1.0);
+  top                 : 360px;
+  height              : 36px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(215, 218, 221, 1.0);
+}
+.detail-course-preview .bitmap7 .rectangle2 {
+  background-color    : rgba(235, 237, 238, 1.0);
+  top                 : 54px;
+  height              : 36px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(215, 218, 221, 1.0);
+}
+.detail-course-preview .bitmap7 .rectangle2-copy {
+  background-color    : rgba(235, 237, 238, 1.0);
+  top                 : 54px;
+  height              : 36px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(215, 218, 221, 1.0);
+}
+.detail-course-preview .bitmap8 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 489px;
+  height              : 350px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1821px;
+}
+.detail-course-preview .bitmap9 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 191px;
+  height              : 248px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1821px;
+}
+.detail-course-preview .build {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1841px;
+  font-family         : "SFProDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(140, 138, 140, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.detail-course-preview .layouts {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 458px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1841px;
+  font-family         : "SFProDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(140, 138, 140, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.detail-course-preview .bitmap10 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 191px;
+  height              : 1075px;
+  width               : 855px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.detail-course-preview .cancel-icon {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 275px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 832px;
+}
+.detail-course-preview .cancel-icon .shape30 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.86;
+}
+.detail-course-preview .choose-the-right-too {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 612px;
+  height              : auto;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1080px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .preparing-the-worksp {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 672px;
+  height              : auto;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1080px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .write-down-a-project {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 731px;
+  height              : auto;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1080px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .cutting-the-woods {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 791px;
+  height              : auto;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1080px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .painting-colors {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 851px;
+  height              : auto;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1080px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .mounting-the-parts {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 911px;
+  height              : auto;
+  width               : 165px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1080px;
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(127, 127, 127, 1.0);
+  text-align          : left;
+  line-height         : 60.0px;
+}
+.detail-course-preview .rectangle4 {
+  background-color    : rgba(4, 4, 4, 1.0);
+  top                 : 0px;
+  height              : 1446px;
+  width               : 2032px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.82;
+}
+.detail-course-preview .bitmap11 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 189px;
+  height              : 949px;
+  width               : 1477px;
+  position            : absolute;
+  margin              : 0;
+  left                : 279px;
+}
+.detail-course-preview .bitmap12 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 597px;
+  height              : 486px;
+  width               : 725px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1030px;
+}
+.detail-course-preview .rectangle3 {
+  background-color    : rgba(52, 52, 52, 1.0);
+  top                 : 1097px;
+  height              : 38px;
+  width               : 683px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1040px;
+}
+.detail-course-preview .cancel-icon1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1952px;
+}
+.detail-course-preview .cancel-icon1 .shape31 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.86;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
